@@ -9,6 +9,15 @@
 
 <body>
     <main>
+        <nav>
+            <ul>
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'category_list' %}">Category List</a></li>
+                <li><a href="{% url 'account_list' %}">Account List</a></li>
+                <li><a href="{% url 'create_category' %}">Create Category</a></li>
+                <li><a href="{% url 'create_account' %}">Create Account</a></li>
+            </ul>
+        </nav>
         <h1>My Accounts</h1>
         <table>
             <thead>

@@ -8,6 +8,15 @@
 </head>
 
 <body>
+    <nav>
+        <ul>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'category_list' %}">Category List</a></li>
+            <li><a href="{% url 'account_list' %}">Account List</a></li>
+            <li><a href="{% url 'create_category' %}">Create Category</a></li>
+            <li><a href="{% url 'create_account' %}">Create Account</a></li>
+        </ul>
+    </nav>
     <main>
         <h1>My Categories</h1>
         <table>
